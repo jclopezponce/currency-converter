@@ -1,0 +1,78 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+
+.card{
+  width: 75%;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+  background-image: linear-gradient(#155E95, #6A80B9);
+}
+.currency{
+  display: flex;
+}
+
+.selects{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icons{
+  padding-top:15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.amount {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+
+
+select {
+  margin: 5px 5px;
+  width: 70%;
+  height: 50px;
+  display: inline;
+  border-radius: 5px;
+  text-align: center;
+
+}
+
+.result {
+  margin-top: 10px;
+  border: 1px solid;
+}
+
+@media only screen and (max-width: 600px) {
+
+  html, body {
+      max-width: 100%;
+      overflow-x: hidden;
+      overflow-y: hidden;
+    }
+    body {
+      margin-top: 100px !important;
+      min-height: 0 !important;
+    }
+   #root {
+    padding: 5px;
+   }
+
+   .card{
+    width: 95%;
+   }
+  }
+
+
