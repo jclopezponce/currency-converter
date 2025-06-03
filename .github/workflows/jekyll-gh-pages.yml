@@ -21,7 +21,7 @@ concurrency:
   cancel-in-progress: true
   
 #Allow repo secrets
-  env:
+env:
   VITE_EXCHANGE_APIKEY: ${{ secrets.VITE_EXCHANGE_APIKEY }}
 
 jobs:
